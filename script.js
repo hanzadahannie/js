@@ -115,12 +115,12 @@
 // [2, 3, 4, 5], 'hello world' =>
 // [2, 3, 4, 5, 'h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd', 2, 3, 4, 5]
 
-const handleFilter= (arr, str) => {
-    let res = str.split(' ').join('').split('')
-    let res2 = arr.concat(res)
-    return res2.concat(arr)
-}
-console.log(handleFilter([2, 3, 4, 5], 'hello world' ))
+// const handleFilter= (arr, str) => {
+//     let res = str.split(' ').join('').split('')
+//     let res2 = arr.concat(res)
+//     return res2.concat(arr)
+// }
+// console.log(handleFilter([2, 3, 4, 5], 'hello world' ))
 
 
 
